@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>1st project !</title>
+	<meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://use.fontawesome.com/7cee20313a.js"></script>
+</head>
+<body>
+<h1 id="title" >Les principes de base</h1>
+<div id="container">
+    <div class ="sommaire">
+        <h2 id="sommaire"> Sommaire </h2>
+            <ul class="fa-ul">
+                <li> <i class="fa-li fa fa-compass fa-spin logo" aria-hidden="true"></i>
+                    <a href="#balises" >
+                        Les balises
+                    </a>
+                </li>
+                <li> <i class="fa-li fa fa-paint-brush logo" aria-hidden="true" ></i>
+                    <a href="#style">
+                        Le style
+                    </a>
+                </li>
+                <li> <i class="fa-li fa fa-info-circle logo" aria-hidden="true"></i>
+                    <a href="#infos">
+                        Quelques infos
+                    </a>
+                </li>
+                <li> <i class="fa-li fa fa-arrows logo" aria-hidden="true"></i>
+                    <a href="#icones">
+                        Les icônes !
+                    </a>
+                </li>
+            </ul>
+    </div>
+    <div id="content">
+        <h2 class="title" id="balises">Les balises </h2>
+            <table>
+            <tr>
+                <th>Nom</th>
+                <th>fonction</th>
+                <th>dépendances</th>
+            </tr>
+            <tr>
+                <td>Table</td>
+                <td>Création tableau     </td>
+                <td>tr (row) / th (head) / td (data)</td>
+            </tr>
+            <tr>
+                <td>h</td>
+                <td>titres</td>
+                <td>1 à 6 niveaux, 1seul "1"</td>
+            </tr>
+            <tr>
+                <td>img</td>
+                <td>image</td>
+                <td>src (adresse), alt (texte remplacement)</td>
+            </tr>
+            <tr>
+                <td>a</td>
+                <td>lien hypertexte</td>
+                <td>href (url)</td>
+            </tr>
+            <tr>
+                <td>div class</td>
+                <td>structurer des parties via CSS</td>
+                <td>class="voitures" --> .voiture in CSS</td>
+            </tr>
+        <tr>
+            <td>div id</td>
+            <td>structurer des éléments ponctuels via CSS</td>
+            <td>id="Alpha_Romeo" --> #Alpha_Romeo in CSS</td>
+        </tr>
+        </table>
+            <a href="https://developer.mozilla.org/fr/docs/Web/HTML/Element">Une source utile (Mozilla)</a>
+        <h2 class ="title" id="style">Le style </h2>
+            <table>
+            <tr>
+                <th>Nom</th>
+                <th>fonction</th>
+                <th>options</th>
+            </tr>
+            <tr>
+                <td>img:hover</td>
+                <td>pseudo-classe lors d'une action (survol)</td>
+
+            </tr>
+            <tr>
+                <td>color</td>
+                <td>définit la couleur</td>
+                <td>les chercher <a href="https://color.adobe.com/">là</a></td>
+            </tr>
+            <tr>
+                <td>fonts</td>
+                <td>polices</td>
+                <td>les chercher <a href="https://fonts.google.com/">là <i class="fa fa-thumbs-o-up fa-2x" aria-hidden="true"></i></a> // font-family font-size line-height text-decoration text-align etc...</td>
+            </tr>
+        </table>
+        <h2 class ="title" id="infos">Quelques info</h2>
+            <img src="images/noun_259875_cc.svg" alt="logo driver"width="100">
+            <img src="images/photo%20Arthur.jpg" alt="photo arthur"width="200">
+            <p>
+                Pour tester du code : <a href="https://jsfiddle.net/">JSfiddle</a> et <a href="http://codepen.io/">Codepen (plus touffu)</a>
+            </p>
+        <div id="icones">
+        <h2 class ="title" >Quelques icônes sympa</h2>
+            <ul class="fa-ul">
+                <li><i class="fa-li fa fa-check-square"></i>List icons</li>
+                <li><i class="fa-li fa fa-check-square"></i>can be used</li>
+                <li><i class="fa-li fa fa-spinner fa-spin"></i>as bullets</li>
+                <li><i class="fa-li fa fa-square"></i>in lists</li>
+            </ul>
+
+            <i class="fa fa-camera-retro fa-lg"></i> fa-lg
+            <i class="fa fa-camera-retro fa-2x"></i> fa-2x
+            <i class="fa fa-camera-retro fa-3x"></i> fa-3x
+            <i class="fa fa-camera-retro fa-4x"></i> fa-4x
+            <i class="fa fa-camera-retro fa-5x"></i> fa-5x
+
+            <i class="fa fa-spinner fa-spin fa-3x fa-fw"></i>
+            <span class="sr-only">Loading...</span>
+
+            <i class="fa fa-circle-o-notch fa-spin fa-3x fa-fw"></i>
+            <span class="sr-only">Loading...</span>
+
+            <i class="fa fa-refresh fa-spin fa-3x fa-fw"></i>
+            <span class="sr-only">Loading...</span>
+
+            <i class="fa fa-cog fa-spin fa-3x fa-fw"></i>
+            <span class="sr-only">Loading...</span>
+
+            <i class="fa fa-spinner fa-pulse fa-3x fa-fw"></i>
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+</div>
+</body>
+</html>
